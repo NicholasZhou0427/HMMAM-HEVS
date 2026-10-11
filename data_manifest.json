@@ -1,0 +1,27 @@
+{
+  "customer_size": 20,
+  "vehicle_capacities": [10, 10, 10],
+  "node_count": 41,
+  "files": [
+    {
+      "path": "data_high/c20v3_20260601_141156_train.pt",
+      "split": "train",
+      "samples": 100000,
+      "size_bytes": 178877572,
+      "sha256": "7757b2bec87e194b8a2787c165d3cfd69cd4f799eac952b18c5d8b586d18627f"
+    },
+    {
+      "path": "data_high/c20v3_20260601_141156_val.pt",
+      "split": "validation",
+      "samples": 2000,
+      "size_bytes": 3566637,
+      "sha256": "519ed601feedf0020a40468a68dc442a154d652c4c8f4ac2082e54976d32f8f5"
+    },
+    {
+      "path": "models/low_c20.pt",
+      "split": "model",
+      "size_bytes": 18552311,
+      "sha256": "64f044540b33cf057dd87cc12daeac9062c6ca5b0dff653a0d029d6f0a51bd71"
+    }
+  ]
+}
